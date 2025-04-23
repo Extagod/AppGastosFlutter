@@ -388,9 +388,6 @@ class _GastoScreenState extends State<GastoScreen> {
         // Recargar los totales
         _cargarTotales();
 
-        // Si deseas regresar a la pantalla anterior después de guardar el gasto
-        Navigator.pop(context);
-
         // O si prefieres recargar la pantalla actual
         Navigator.pushReplacement(
           context,
